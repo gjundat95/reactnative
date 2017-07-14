@@ -28,12 +28,12 @@ export const HomeStack = StackNavigator({
 
         }
     },
-    Detail: {
-        screen: DetailScreen,
-        navigationOptions: {
-            title: 'Detail'
-        }
-    },
+    // Detail: {
+    //     screen: DetailScreen,
+    //     navigationOptions: {
+    //         title: 'Detail'
+    //     }
+    // },
 
 });
 
@@ -67,6 +67,7 @@ export const TabBar = TabNavigator({
                     style={[styles.icon, {tintColor: tintColor}]}
                 />
             ),
+            header: null,
 
         }
     },
@@ -80,6 +81,7 @@ export const TabBar = TabNavigator({
                     style={[styles.icon, {tintColor: tintColor}]}
                 />
             ),
+            header: null,
         }
     },
     FlatList:{
@@ -92,6 +94,7 @@ export const TabBar = TabNavigator({
                     style={[styles.icon, {tintColor: tintColor}]}
                 />
             ),
+            header: null,s
         }
     }
 
